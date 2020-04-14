@@ -23,3 +23,6 @@ h2{
 h2{
 	border-bottom: solid #ffebee;
 }
+.premier-ligne, .deuxieme-ligne, .troisieme-ligne, .quatrieme-ligne, .cinquieme-ligne, .sixieme-ligne, .septieme-ligne{
+	display: flex;
+}
