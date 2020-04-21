@@ -5,6 +5,7 @@
 }
 #element1 {    
     background-color: #ffebee;
+
 }
 img { 
    display: block;
@@ -13,16 +14,31 @@ img {
    border: 4px solid white;
    border-radius: 50px / 50px;
 }
-h2{
+#element1 h2{
 	background-color: white;
 	text-align: center;
 }
-
+.logo{
+	 display: flex;
+    justify-content: space-around;
+}
+.description{
+	margin-left: 30%;
+	width: 60%;
+}
 #element2 {    
+	margin-left: 50px;
+	margin-right: 50px;
+
 }
 h2{
 	border-bottom: solid #ffebee;
 }
 .premier-ligne, .deuxieme-ligne, .troisieme-ligne, .quatrieme-ligne, .cinquieme-ligne, .sixieme-ligne, .septieme-ligne{
+	
 	display: flex;
+	
+}
+#element2 i {
+	margin-right: 15px;
 }
