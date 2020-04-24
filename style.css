@@ -4,7 +4,8 @@
    
 }
 #element1 {    
-    background-color: #ffebee;
+    background-color: #FF9E80;
+    width: 700px;
 
 }
 img { 
@@ -19,7 +20,8 @@ img {
 	text-align: center;
 }
 .logo{
-	 display: flex;
+
+    display: flex;
     justify-content: space-around;
 }
 .description{
@@ -32,13 +34,28 @@ img {
 
 }
 h2{
-	border-bottom: solid #ffebee;
+	border-bottom: solid #FF9E80;
 }
-.premier-ligne, .deuxieme-ligne, .troisieme-ligne, .quatrieme-ligne, .cinquieme-ligne, .sixieme-ligne, .septieme-ligne{
+.premier-ligne, .deuxieme-ligne, .troisieme-ligne, .quatrieme-ligne, .cinquieme-ligne, .sixieme-ligne, .septieme-ligne, .huitieme-ligne{
 	
 	display: flex;
 	
 }
 #element2 i {
-	margin-right: 15px;
+	margin-right: 20px;
 }
+#element1 i {
+
+	text-align: center;
+	 border: 2px solid black;
+	 width: 60px;
+	 height: 60px;
+	 border-radius: 60px;
+
+}
+.coordonnees-premier{
+	
+	margin-right: 100px;
+
+}
+	
