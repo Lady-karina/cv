@@ -15,9 +15,11 @@ img {
    border: 3px solid #BDBDBD;
    border-radius: 100px / 100px;
    height: 200px;
-   
-   margin-left: 100px;
+   display: block;
+   margin:auto;
    border-top: 50px;
+   margin-top: 30px;
+   margin-bottom: 30px;
 
 }
 #element1 h2{
@@ -48,10 +50,13 @@ h2{
 }
 #element2 i {
 	margin-right: 50px;
+	color: #FF9E80;
 }
 #element1 i {
 
 	text-align: center;
+	line-height: 60px;
+	font-size: 40px;
 	 border: 2px solid black;
 	 width: 60px;
 	 height: 60px;
@@ -74,4 +79,20 @@ h2{
 	height: 500px;
 }
 @media all and (max-width: 1024px)
-{	
+{	}
+@font-face {
+    font-family: 'alegreyaregular';
+    src: url('alegreya-regular-webfont.eot');
+    src: url('alegreya-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('alegreya-regular-webfont.woff') format('woff'),
+         url('alegreya-regular-webfont.ttf') format('truetype'),
+         url('alegreya-regular-webfont.svg#alegreyaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+header{
+	margin-bottom: 130px;
+}
+header span {
+	border-bottom: 2px solid #FF9E80;
+}
