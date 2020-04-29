@@ -95,7 +95,7 @@ h2{
 header{
 	margin-bottom: 130px;
 }
-header span {
+header .trait {
 	border-bottom: 2px solid #FF9E80;
 }
 header h1 span {
