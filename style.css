@@ -80,8 +80,8 @@ h2{
 .moi{
 	height: 600px;
 }
-@media all and (max-width: 1024px)
-{	}
+
+
 @font-face {
     font-family: 'alegreyaregular';
     src: url('alegreya-regular-webfont.eot');
