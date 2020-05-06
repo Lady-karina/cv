@@ -80,8 +80,6 @@ h2{
 .moi{
 	height: 600px;
 }
-
-
 @font-face {
     font-family: 'alegreyaregular';
     src: url('alegreya-regular-webfont.eot');
@@ -111,4 +109,7 @@ header h1 {
 }
 h1 , h2 {
 	font-family: 'alegreyaregular','arial',cursive;
+}
+.premier-ligne ,i ,p {
+	display: flex;
 }
