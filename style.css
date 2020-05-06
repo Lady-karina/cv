@@ -107,5 +107,8 @@ header p {
 	font-size: 30px;
 }
 header h1 {
-	font-size: 50px;
+	font-size: 60px;
+}
+h1 , h2 {
+	font-family: 'alegreyaregular','arial',cursive;
 }
