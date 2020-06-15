@@ -1,3 +1,6 @@
+body {
+	margin: 0;
+}
 #conteneur{
 	
      display: flex;
@@ -122,16 +125,32 @@ i ,p {
 	#conteneur{
 		display: block;
 
-
-
 	}
 	#element1{
 		width: 100%;
+	
 	}
+	.loisirs{
+		bottom: 17px;
+	}
+	img {
+		margin-top: 0px;
+	}
+	.photo {
+		padding-top: 30px;
+	}
+	.huitieme-ligne{
+		flex-direction: column;
+		align-items: center;
+	}
+	.coordonnees-premier{
+	
+	margin-right: 0px;
+	}
+
 }
-@media all and (max-width: 375px){
-	.body {
-		width: 100%;
+@media all and (max-width: 320px){
+	p {flex-direction: column;
 
 	}
 }
