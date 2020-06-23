@@ -149,7 +149,7 @@ i ,p {
 	}
 
 }
-@media all and (max-width: 320px){
+@media all and (max-width: 420px){
 	p {flex-direction: column;
 
 	}
